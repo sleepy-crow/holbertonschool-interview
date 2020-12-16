@@ -3,9 +3,16 @@
 #include <stdio.h>
 #include "lists.h"
 
+/**
+ * insert_node - this function creates a new node
+ * @head: the head of list
+ * @number: the int value of the new node
+ * Return: return the new node
+ */
+
 listint_t *insert_node(listint_t **head, int number)
 {
-    
+
 	listint_t *neo, *cur = *head;
 
 	neo = malloc(sizeof(listint_t));
