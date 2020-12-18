@@ -38,6 +38,12 @@ listint_t *insert_node(listint_t **head, int number)
 		*head = nod;
 		return (nod);
 	}
+	if (cur->n > nod->n)
+	{
+		nod->next = cur;
+		*head = nod;
+		return (nod);
+	}
 	while (cur->next != NULL)
 	{
 		if (cur->next->n > nod->n)
