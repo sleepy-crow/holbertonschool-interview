@@ -1,6 +1,6 @@
 #ifndef SANDPILES
 #define SANDPILES
-/* libraries used */ 
+/* libraries used */
 #include <stdlib.h>
 #include <stdio.h>
 
