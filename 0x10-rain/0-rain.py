@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-
+function that calculates the quantity of water saved
 """
 def rain(walls):
     if len(walls) < 3 or len(walls) == 0:
