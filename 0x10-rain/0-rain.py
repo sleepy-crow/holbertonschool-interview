@@ -2,8 +2,10 @@
 """
 function that calculates the quantity of water saved
 """
+
+
 def rain(walls):
-    if len(walls) < 3 or len(walls) == 0:
+    if walls == None:
         return 0
 
     if len(walls) == 3 and walls[-1] == 0:
