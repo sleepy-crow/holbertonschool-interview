@@ -6,7 +6,7 @@ function that calculates the quantity of water saved
 
 def rain(walls):
     """Calculate how much water will be retained after it rains."""
-    if walls == None or len(walls) < 3:
+    if not len(walls) or len(walls) < 3:
         return 0
 
     if len(walls) == 3 and walls[-1] == 0:
