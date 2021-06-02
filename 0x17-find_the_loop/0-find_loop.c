@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * is_a_loop_there - function that checks if there is a loop
