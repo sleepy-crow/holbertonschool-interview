@@ -1,8 +1,9 @@
 #!/usr/bin/python3
+import math
 """
 Making Change
 """
-import math
+
 
 def makeChange(coins, total):
     """
@@ -29,8 +30,7 @@ def makeChange(coins, total):
         left = left % coins[length]
         length -= 1
 
-
     if (subtotalC != total):
         return -1
-    
+
     return change
