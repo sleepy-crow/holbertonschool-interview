@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-import math
 """
 Making Change
 """
-
+import math
 
 def makeChange(coins, total):
     """
